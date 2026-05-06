@@ -1,3 +1,3 @@
 ### ML
 
-This repo serves as a journal of ML discovery and learning.
+This repo serves as a journal of ML discovery and learning. 
