@@ -60,3 +60,11 @@ And as described above, the area increases from 4 to 36, scaling the area by a f
 - Prepend 1 to fit shape dimensions
 - Stretch all 1 dimensions to fit the shape of 1st matrix in a given 2 matrix op.
 
+## Axis reduction
+
+- When there are reduction operations (e.g. sum), and axis is specified, this means shape transforms to one where the axis is removed from the original shape e.g. 
+
+```
+(3, 4, 4) --> reduce axis 1 --> (3, 4) 
+```
+
