@@ -8,9 +8,12 @@
 
 ## Days 1–3 (~5 hrs) — Finish linear algebra; start calculus
 
-- [ ] Watch [3Blue1Brown — Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) chapters 6–9 (determinants; inverses; rank; dot/cross products)
-- [ ] Watch chapters 10–14 (change of basis; eigenvectors; abstract vector spaces)
-- [ ] Watch [3Blue1Brown — Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr), chapters 1–4 (derivatives, chain rule basics)
+- [x] Watch [3Blue1Brown — Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) chapters 6–9 (determinants; inverses; rank; dot/cross products)
+- [x] Watch chapters 10–14 (change of basis; eigenvectors; abstract vector spaces)
+- [ ] Rewatch and understand chapters 10-14
+
+
+- [x] Watch [3Blue1Brown — Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr), chapters 1–4 (derivatives, chain rule basics)
 - [ ] Add notes to `learnings.md` capturing key intuitions (eigenvectors, determinants, derivatives)
 
 ## Days 4–5 (~4 hrs) — Linear regression from scratch
