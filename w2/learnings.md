@@ -52,3 +52,28 @@ $g(h(x))$ -> $g'(h(x)) \cdot h'(x)$
 Number line idea, substituting inside function as another representative variable.
 
 In Leibniz notation, if $y = f(u)$ and $u = g(x)$, the rule is written as:$\frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx}$
+
+
+## Gradient descent
+
+Gradient descent is based on the idea of optimization of weights and biases of a function via minimalizing losses of expected and actual values of prediction via linear regression.
+
+- Given a set of actual data (x1, ... xn) for n features and a resulting y1... yn,
+- For every actual data and predicted data, there lies a value v, that represents a factor of error (difference in data) between the 2 data sets.
+- To minimize this given data, we take an iterative approach of tweaking some parameters (namely weights and biases) opposing the gradient, and finally reaching the function minimum, which implies the minimum value of v represented above.
+
+### Implementation for 1 feature linear regression model
+
+Given the Mean Squared Error (MSE) formula of:
+
+$\frac{1}{n}\sum_{i=1}^{i=n}({w}\cdot{x_i} + b - y_i)^2$ 
+
+We need to find the optimal value of weight(s) -> w + bias -> b:
+
+We can then proceed to finding the partial derivatives of MSE w.r.t. W and B respectively:
+
+Based on chain rule, the derivatives are as follows:
+
+$\frac{dMSE}{dW} = 2 \frac{1}{n}\sum_{i=1}^{i=n}\cdot ({w}\cdot{x_i} + b - y_i) \cdot (x_i + b - y_i)$
+
+$\frac{dMSE}{dB} = 2 \frac{1}{n}\sum_{i=1}^{i=n}\cdot ({w}\cdot{x_i} + b - y_i)$

@@ -14,15 +14,15 @@
 
 
 - [x] Watch [3Blue1Brown — Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr), chapters 1–4 (derivatives, chain rule basics)
-- [ ] Add notes to `learnings.md` capturing key intuitions (eigenvectors, determinants, derivatives)
+- [x] Add notes to `learnings.md` capturing key intuitions (eigenvectors, determinants, derivatives)
 
 ## Days 4–5 (~4 hrs) — Linear regression from scratch
 
-- [ ] Generate synthetic data: `y = 3x + 2 + Gaussian noise`
-- [ ] Write the mean-squared-error loss function in NumPy
-- [ ] Derive the gradient of MSE w.r.t. weight and bias on paper
-- [ ] Implement gradient descent in pure NumPy (no scikit-learn)
-- [ ] Plot the loss curve and the fitted line vs the true line
+- [x] Generate synthetic data: `y = 3x + 2 + Gaussian noise`
+- [x] Write the mean-squared-error loss function in NumPy
+- [x] Derive the gradient of MSE w.r.t. weight and bias on paper
+- [x] Implement gradient descent in pure NumPy (no scikit-learn)
+- [x] Plot the loss curve and the fitted line vs the true line
 - [ ] Push the notebook to `w2/` with a README explaining gradient descent in your own words
 
 ## Days 6–7 (~3 hrs) — ML vocabulary
