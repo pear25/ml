@@ -23,11 +23,11 @@
 - [x] Derive the gradient of MSE w.r.t. weight and bias on paper
 - [x] Implement gradient descent in pure NumPy (no scikit-learn)
 - [x] Plot the loss curve and the fitted line vs the true line
-- [ ] Push the notebook to `w2/` with a README explaining gradient descent in your own words
+- [x] Push the notebook to `w2/` with a README explaining gradient descent in your own words
 
 ## Days 6–7 (~3 hrs) — ML vocabulary
 
-- [ ] Read [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) parts 1 and 2
+- [x] Read [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) parts 1 and 2
 - [ ] Read chapters 1–2 of Burkov's *The Hundred-Page Machine Learning Book*
 - [ ] Add short glossary to `learnings.md` (features, labels, training/validation/test, overfitting, etc.)
 
