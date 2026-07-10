@@ -99,9 +99,9 @@ Get tooling sharp, math back, and your first neural network trained. By end of w
 *Time budget: ~12 hours*
 
 **Days 1–2 (~4 hrs) — Chain rule mastery**
-- ☐ Finish 3Blue1Brown 'Essence of Calculus' (chapters 5–11)
+- ☐ Finish 3Blue1Brown 'Essence of Calculus' (chapters 5–11) completed (done)
 - ☐ Drill the chain rule on paper: if f(g(x)), then df/dx = f'(g(x)) · g'(x)
-- ☐ Compute derivatives of nested functions until automatic (sigmoid, log, polynomials)
+- ☐ Compute derivatives of nested functions until automatic (sigmoid, log, polynomials) (done)
 
 **Days 3–5 (~5 hrs) — Logistic regression from scratch**
 - ☐ Implement the sigmoid function and binary cross-entropy loss in NumPy
