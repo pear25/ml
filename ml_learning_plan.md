@@ -104,7 +104,8 @@ Get tooling sharp, math back, and your first neural network trained. By end of w
 - ☐ Compute derivatives of nested functions until automatic (sigmoid, log, polynomials) (done)
 
 **Days 3–5 (~5 hrs) — Logistic regression from scratch**
-- ☐ Implement the sigmoid function and binary cross-entropy loss in NumPy
+- ☐ Implement the sigmoid function in NumPy (done)
+- ☐ Implement the binary cross-entropy loss in NumPy
 - ☐ Derive the gradient of binary cross-entropy with respect to weights on paper
 - ☐ Train logistic regression on the Iris dataset (or sklearn's make_blobs)
 - ☐ Plot the decision boundary

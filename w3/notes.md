@@ -102,6 +102,27 @@ Radius of convergence (distance from point where value still converges)
 
 
 
+## Sigmoid function
+
+Transforms a large range of inputs to values between [0, 1], application is prevalent in turning values into probability
+
+e.g. if a number is positive,
+
+value of +10000 has sigmoid v close to 1
+value of -10000 has sigmoid v close to -1
+value of 0 has sigmoid v of 0.5
+
+Formula is as follows for x >= 0:
+$\frac{1}{1 + e^{-x}}$
+
+For value of x < 0, where value of x is a large negative value $\ e^{-x}$ can reach a v large number, to help it:
+
+We multiply both num and den with $\ e^{x}$ to form:
+
+$\frac{e^{x}}{e^{x} + 1}$
+
+where a very high negative value of x causes numerator to be 0.
+
 
 
 
